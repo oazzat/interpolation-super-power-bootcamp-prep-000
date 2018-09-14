@@ -1,9 +1,9 @@
-def display_rainbow (color)
-  puts "R: #{color},"
-  puts "O: #{color},"
-  puts "Y: #{color},"
-  puts "G: #{color},"
-  puts "B: #{color},"
-  puts "I: #{color},"
-  puts "V: #{color},"
+def display_rainbow (colors)
+  puts "R: #{color[0]},"
+  puts "O: #{color[1]},"
+  puts "Y: #{color[2]},"
+  puts "G: #{color[3]},"
+  puts "B: #{color[4]},"
+  puts "I: #{color[5]},"
+  puts "V: #{color[6]},"
 end
